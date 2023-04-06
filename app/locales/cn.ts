@@ -21,7 +21,7 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入…",
     Input: (submitKey: string) => {
-      var inputHints = `输入消息，${submitKey} 发送`;
+      var inputHints = `输入消息，${submitKey} 发送，输入/查看提示词补全`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
