@@ -68,16 +68,15 @@ export default function RootLayout({
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
-      <body>{children}</body>
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KY2PKZDJDC"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY2PKZDJDC"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-KY2PKZDJDC');
-</script>
+      gtag('config', 'G-KY2PKZDJDC');
+      </script>
+      <body>{children}</body>
     </html>
   );
 }
