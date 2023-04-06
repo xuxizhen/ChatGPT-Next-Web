@@ -67,6 +67,7 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY2PKZDJDC"></script>
+        <script src="/ga.js" defer></script>
         <script src="/serviceWorkerRegister.js" defer></script>
       </head>
       <body>{children}</body>
