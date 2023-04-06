@@ -49,6 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script src="/ga.js" defer></script>
         <meta
           name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -67,7 +68,6 @@ export default function RootLayout({
           rel="stylesheet"
         ></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script src="/ga.js" defer></script>
       </head>
       <body>{children}</body>
     </html>
