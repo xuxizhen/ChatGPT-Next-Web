@@ -120,7 +120,7 @@ function _Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>ChatGPTV5😊</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            Telegram: https://t.me/chatgptv12345
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
