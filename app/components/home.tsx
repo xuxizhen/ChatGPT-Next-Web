@@ -202,8 +202,14 @@ function _Home() {
 function _Footer() {
   return (
     <div className={styles["footer"]}>
-      推荐：<a href="https://www.zipzap.ai/">ZipZap.AI</a> ｜ 加入电报组：
-      <a href="https://t.me/chatgptv12345">https://t.me/chatgptv12345</a>
+      推荐：
+      <a href="https://www.zipzap.ai/" target="_blank">
+        ZipZap.AI
+      </a>{" "}
+      ｜ 加入电报组：
+      <a href="https://t.me/chatgptv12345" target="_blank">
+        https://t.me/chatgptv12345
+      </a>
       {/*{Locale.Footer.Content}*/}
     </div>
   );
